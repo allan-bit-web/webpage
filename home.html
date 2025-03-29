@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>HOME</title>
+        <script src="https://kit.fontawesome.com/38be9f28af.js" crossorigin="anonymous"></script> 
+        <link rel="stylesheet" href="home.css" > 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rome</h1>
+        </div>
+        
+        <div class="code">
+            <div class="nav">
+                <nav >
+                    <ul>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="achievement.html">Achievements</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                 </nav>   
+            </div>
+            <div class="image">
+                <img src="a.jpg" alt="image1" onclick="showAlert('You clicked image A')">
+                <img src="b.jpg" alt="image2" onclick="showAlert('You clicked image B')">
+                <img src="c.jpg" alt="image3" onclick="showAlert('You clicked image C')">
+            </div>
+           <div>
+           <header >
+                <h1>The Great Rome</h1>
+                <h3>Overview</h3>
+                <p>Rome, the capital of Italy, is one of the most historically significant and culturally rich cities in the world.Known as the "Eternal City," it has a history spanning over 2,500 years and was the center of the powerful Roman Empire.<br> Today, Rome is a major global city, famous for its ancient ruins, art, architecture, and cuisine.</p>
+            </header>
+            </div>
+        </div>
+        <div class="icon">
+            <a href="https://www.facebook.com/groups/visitrome/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://x.com/Turismoromaweb" target="_blank">
+               <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/visit_rome_official?igsh=YzljYTk1ODg3Zg==" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>    
+        </div>
+            <div class="footer">
+                <footer>
+                    <p>Created by Allan |&copy; <span id="date"></span></p>
+                </footer>
+            </div>
+            <script>
+                document.getElementById("date").textContent = new Date().getFullYear();
+                function showAlert(message) {
+            alert(message);
+        }
+
+            </script>    
+        </div>
+        
+    </div>
+</body>
+</html>

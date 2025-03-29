@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements of Rome</title>
+    <link rel="stylesheet" href="achievement.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slideshow-container">
+            <img class="slide" src="6.rome.jpg" alt="Image 1">
+            <img class="slide" src="3.rome.jpg" alt="Image 2">
+            <img class="slide" src="11.rome.jpg" alt="Image 3">
+        </div>
+       
+        <h1>Achievements of Ancient Rome</h1>
+        
+        <h2>Engineering and Architecture</h2>
+        <ul>
+            <li>Concrete - Developed durable concrete for construction.</li>
+            <li>Aqueducts - Supplied cities with fresh water.</li>
+            <li>Roads - Built over 250,000 miles of roads.</li>
+            <li>Colosseum and Pantheon - Iconic structures still standing today.</li>
+        </ul>
+        
+        <h2>Government and Law</h2>
+        <ul>
+            <li>Republican Government - Inspired modern democracies.</li>
+            <li>Roman Law - Basis for many modern legal systems.</li>
+            <li>Senate and Elected Officials - Influenced representative governments.</li>
+        </ul>
+        
+        <h2>Military and Conquests</h2>
+        <ul>
+            <li>Legionary System - Highly disciplined military.</li>
+            <li>Pax Romana - A period of peace and economic growth.</li>
+            <li>Fortifications - Built walls like Hadrian's Wall.</li>
+        </ul>
+        
+        
+        
+        <button onclick="coder()">hide</button>
+        <div class="hide">
+           
+            <h2>Art and Culture</h2>
+        <ul>
+            <li>Mosaics and Frescoes - Beautiful artwork depicting Roman life.</li>
+            <li>Literature - Works of Virgil, Cicero, and others.</li>
+            <li>Theaters and Entertainment - Gladiator games and dramas.</li>
+        </ul>
+        </div>
+        <div class="hide">
+            <h2>Language and Writing</h2>
+        <ul>
+            <li>Latin - Foundation of Romance languages.</li>
+            <li>Roman Alphabet - Basis of modern Western writing.</li>
+        </ul>
+        </div>
+        
+        
+        
+        </div>
+        
+        
+        <footer>
+            <p>&copy; 2025 Rome Achievements | All Rights Reserved</p>
+        </footer>
+    </div>
+    <script src="slide.js"></script>
+    <script>
+        function coder(){
+            var x=document.getElementsByClassName("hide");
+            for(var i=0;i<x.length;i++){
+                x[i].style.display="show";
+            }
+
+        }
+    </script>
+</body>
+</html>
